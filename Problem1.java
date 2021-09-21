@@ -6,8 +6,7 @@ import java.io.*;
 // This solution space complexity is O(1) and time complexity is O(logn)
 class GFG
 {
-static int search(int ar[],
-				int size)
+static int search(int ar[],int size)
 {
 	int a = 0, b = size - 1;
 	int mid = 0;
@@ -29,8 +28,7 @@ static int search(int ar[],
 //This solution space complexity is O(1) and time complexity is O(n)
   class GFG
 {
-static int search(int ar[],
-				int size)
+static int search(int ar[],int size)
 {
   int missing = size + 1 ;
         for (int i = 0; i < size; i++) {
